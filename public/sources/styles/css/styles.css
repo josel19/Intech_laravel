@@ -1,0 +1,74 @@
+.bg-login{
+    background-image:linear-gradient( rgba(241, 240, 240, 0.7) 0%, rgba(255, 251, 251, 0.7) 41%, rgba(0, 0, 0, 0.7) 100%), url(https://images.pexels.com/photos/4031818/pexels-photo-4031818.jpeg?cs=srgb&dl=pexels-edward-jenner-4031818.jpg&fm=jpg&_gl=1*q53emw*_ga*NTUxOTEzOTIxLjE2Njc3NTIxNDI.*_ga_8JE65Q40S6*MTY2ODQ1Mjk1My4zLjEuMTY2ODQ1Mjk5OC4wLjAuMA..);
+    background-position: -230px;
+    background-size: cover ;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.font-login{
+    font-weight: bold;
+    color: #1472C2;
+}
+
+.login_form{
+    border: none;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    width: 100%;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 2px solid #ced4da;
+    appearance: none;
+    transition: border-color .5s ease,;
+   
+}
+input.login_form:focus, input.login_form:hover {
+    outline: none;
+    border-color: #1472C2;
+}
+
+input#user1.login_form::before{
+    font-family: "FontAwesome";
+    content: "\f007";
+}
+   
+
+.login-frame{
+    height: 700px;
+    width: 1200px;
+    min-height: 200px;
+}
+
+.centrado{
+    padding-top: 200px !important;
+}
+
+.btn-primary{
+    border-radius: 4px;
+    background-color: #1472C2;
+    color: rgb(221, 221, 221);
+}
+.btn-primary:hover{
+    border-radius: 4px !important;
+    background-color: #ffffff !important;
+    color: #1472C2 !important;
+}
+.btn-primary:focus{
+    border-radius: 5px !important;
+    background-color: #1472C2;
+    color: rgb(221, 221, 221);
+}
+
+.link_custom{
+    color: #868686;
+}
+.link_custom:hover{
+    color: #1472C2;
+}
+
+
