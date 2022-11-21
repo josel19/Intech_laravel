@@ -25,7 +25,8 @@
                     <img src="{{ asset('sources/files/images/logo_1.png') }}" class="img-fluid centrado" alt="">
                 </div>
                 <div class="col-6 rounded-end">
-                    <div class="row flex p-lg-5 p-md-2 p-sm-2  m-lg-5 m-md-2 m-sm-0" style="padding-bottom: 0px !important">
+                    <div class="row flex p-lg-5 p-md-2 p-sm-2  m-lg-5 m-md-2 m-sm-0"
+                        style="padding-bottom: 0px !important">
                         <div class="col-12 mb-4">
                             <h3 class="text-center font-login">Ingreso Titular</h3>
                         </div>
@@ -47,7 +48,11 @@
                                     <div class="input">
                                         <i class="fa-solid fa-lock incon_input"></i>
                                         <input type="password" class="login_form" name="password" id="password"
-                                            aria-describedby="helpId" placeholder="Escribe tu contraseña" required>
+                                            aria-describedby="helpId" placeholder="Escribe tu contraseña"  required>
+                                        <button id="mostrar_contra" type="button" class="btn-hide" onclick="mostrar()">
+                                            <i id="ver" class="fa-regular fa-eye p-2"></i>
+                                            <i style="display: none" id="ocultar" class="fa-regular fa-eye-slash p-2"></i>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

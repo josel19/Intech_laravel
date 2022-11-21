@@ -167,3 +167,12 @@ input#user1.login_form::before {
 .flex-item-bottom{
     align-self: flex-end;
 }
+
+.ocultar:hover{
+    cursor: pointer;
+}
+
+.btn-hide{
+    border: none;
+    background-color: transparent;
+}
