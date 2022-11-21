@@ -1,16 +1,16 @@
-.bg-login{
-    background-image:linear-gradient( rgba(241, 240, 240, 0.7) 0%, rgba(255, 251, 251, 0.7) 41%, rgba(0, 0, 0, 0.7) 100%), url(https://images.pexels.com/photos/4031818/pexels-photo-4031818.jpeg?cs=srgb&dl=pexels-edward-jenner-4031818.jpg&fm=jpg&_gl=1*q53emw*_ga*NTUxOTEzOTIxLjE2Njc3NTIxNDI.*_ga_8JE65Q40S6*MTY2ODQ1Mjk1My4zLjEuMTY2ODQ1Mjk5OC4wLjAuMA..);
+.bg-login {
+    background-image: linear-gradient(rgba(241, 240, 240, 0.7) 0%, rgba(255, 251, 251, 0.7) 41%, rgba(0, 0, 0, 0.7) 100%), url(https://images.pexels.com/photos/4031818/pexels-photo-4031818.jpeg?cs=srgb&dl=pexels-edward-jenner-4031818.jpg&fm=jpg&_gl=1*q53emw*_ga*NTUxOTEzOTIxLjE2Njc3NTIxNDI.*_ga_8JE65Q40S6*MTY2ODQ1Mjk1My4zLjEuMTY2ODQ1Mjk5OC4wLjAuMA..);
     background-position: -230px;
-    background-size: cover ;
+    background-size: cover;
     border-radius: 4px 4px 0px 0px;
 }
 
-.font-login{
+.font-login {
     font-weight: bold;
     color: #1472C2;
 }
 
-.login_form{
+.login_form {
     border: none;
     display: block;
     width: 100%;
@@ -22,53 +22,148 @@
     width: 100%;
     background-color: #fff;
     background-clip: padding-box;
-    border-bottom: 2px solid #ced4da;
     appearance: none;
-    transition: border-color .5s ease,;
-   
+    transition: border-color .5s ease, ;
+
 }
-input.login_form:focus, input.login_form:hover {
+
+input.login_form:focus,
+input.login_form:hover {
     outline: none;
     border-color: #1472C2;
 }
 
-input#user1.login_form::before{
+input#user1.login_form::before {
     font-family: "FontAwesome";
     content: "\f007";
 }
-   
 
-.login-frame{
-    height: 700px;
-    width: 1200px;
+
+.login-frame {
+    height: 600px;
+    width: 1100px;
     min-height: 200px;
 }
 
-.centrado{
+.centrado {
     padding-top: 200px !important;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 4px;
     background-color: #1472C2;
     color: rgb(221, 221, 221);
+    border-radius: 2px 2px 2px 2px !important;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     border-radius: 4px !important;
     background-color: #ffffff !important;
     color: #1472C2 !important;
 }
-.btn-primary:focus{
+
+.btn-primary:focus {
     border-radius: 5px !important;
     background-color: #1472C2;
     color: rgb(221, 221, 221);
 }
 
-.link_custom{
+.btn-small {
+    border-radius: 4px;
+    background-color: #1472C2;
+    color: rgb(221, 221, 221);
+    padding: 4px !important;
+    font-size: 12px;
+    border-radius: 2px 2px 2px 2px !important;
+}
+
+.btn-small:hover {
+    border-radius: 4px !important;
+    background-color: #ffffff !important;
+    color: #1472C2 !important;
+}
+
+.btn-small:focus {
+    border-radius: 5px !important;
+    background-color: #1472C2;
+    color: rgb(221, 221, 221);
+}
+
+
+.link_custom {
     color: #868686;
 }
-.link_custom:hover{
+
+.link_custom:hover {
     color: #1472C2;
 }
 
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0px 1px;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #1472C2 50%, #000 50%) border-box;
+    background-size: 200%;
+    background-position: right;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s;
+}
 
+.input:hover {
+    color: rgb(20, 114, 194) !important ;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, rgb(20, 114, 194) 50%, #000 50%) border-box;
+    background-size: 200%;
+    background-position: left;
+    border-bottom: 1px solid transparent;
+}
+
+.incon_input {
+    font-size: 25px;
+}
+
+.btn-custom {
+    border: none;
+    font-size: 15px;
+    padding: 2px 16px;
+    width: 100%;
+}
+.btn-custom-sm {
+    border: none;
+    font-size: 12px;
+    padding: 2px 2px;
+    width: 30%;
+}
+
+.blue {
+    background: linear-gradient(to right,  rgb(20, 114, 194) 50%, rgba(255, 255, 255, 0)50%);
+    background-size: 200%;
+    border: 2px solid rgb(20, 114, 194);
+    color: rgb(250, 250, 250);
+    background-position: left;
+    transition: all 0.5s;
+    font-weight: bolder;
+}
+
+.blue:hover {
+    background: linear-gradient(to right, rgb(20, 114, 194) 50%, rgba(255, 255, 255, 0)50%);
+    background-position: right;
+    color: rgb(20, 114, 194) ;
+    border: 2px solid rgb(20, 114, 194);
+    background-size: 200%;
+}
+
+.btn-registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.flex-item-bottom{
+    align-self: flex-end;
+}
