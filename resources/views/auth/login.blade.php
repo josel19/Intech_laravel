@@ -19,12 +19,12 @@
 <body>
 
     <main>
-        <div class="container-fluid d-flex justify-content-center">
+        <div class="vhmax d-flex centrado">
             <div class="row  shadow-lg m-3 rounded login-frame">
-                <div class="col-6 bg-login rounded-start">
-                    <img src="{{ asset('sources/files/images/logo_1.png') }}" class="img-fluid centrado" alt="">
+                <div class="col-lg-6 col-md-6 d-none d-sm-flex bg-login rounded-start centrado">
+                    <img src="{{ asset('sources/files/images/logo_1.png') }}" class="img-fluid" alt="">
                 </div>
-                <div class="col-6 rounded-end">
+                <div class="col-lg-6 col-md-6 col-sm-12 rounded-end">
                     <div class="row flex p-lg-5 p-md-2 p-sm-2  m-lg-5 m-md-2 m-sm-0"
                         style="padding-bottom: 0px !important">
                         <div class="col-12 mb-4">
@@ -56,7 +56,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-12">
                                 <div class="d-grid gap-2 shadow-sm mb-2">
                                     <button type="submit" name="" id=""

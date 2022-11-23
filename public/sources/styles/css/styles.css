@@ -46,7 +46,8 @@ input#user1.login_form::before {
 }
 
 .centrado {
-    padding-top: 200px !important;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-primary {
@@ -113,7 +114,7 @@ input#user1.login_form::before {
 }
 
 .input:hover {
-    color: rgb(20, 114, 194) !important ;
+    color: rgb(20, 114, 194) !important;
     background: linear-gradient(white, white) padding-box,
         linear-gradient(to right, rgb(20, 114, 194) 50%, #000 50%) border-box;
     background-size: 200%;
@@ -131,6 +132,7 @@ input#user1.login_form::before {
     padding: 2px 16px;
     width: 100%;
 }
+
 .btn-custom-sm {
     border: none;
     font-size: 12px;
@@ -139,7 +141,7 @@ input#user1.login_form::before {
 }
 
 .blue {
-    background: linear-gradient(to right,  rgb(20, 114, 194) 50%, rgba(255, 255, 255, 0)50%);
+    background: linear-gradient(to right, rgb(20, 114, 194) 50%, rgba(255, 255, 255, 0)50%);
     background-size: 200%;
     border: 2px solid rgb(20, 114, 194);
     color: rgb(250, 250, 250);
@@ -151,12 +153,12 @@ input#user1.login_form::before {
 .blue:hover {
     background: linear-gradient(to right, rgb(20, 114, 194) 50%, rgba(255, 255, 255, 0)50%);
     background-position: right;
-    color: rgb(20, 114, 194) ;
+    color: rgb(20, 114, 194);
     border: 2px solid rgb(20, 114, 194);
     background-size: 200%;
 }
 
-.btn-registro{
+.btn-registro {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,15 +166,52 @@ input#user1.login_form::before {
 
 }
 
-.flex-item-bottom{
+.flex-item-bottom {
     align-self: flex-end;
 }
 
-.ocultar:hover{
+.ocultar:hover {
     cursor: pointer;
 }
 
-.btn-hide{
+.btn-hide {
     border: none;
     background-color: transparent;
+}
+.vhmax{
+    height: 100vh;
+}
+
+.centrado_select{
+    display: grid;
+    grid-template-columns:
+    repeat(5, 1fr);
+    grid-gap: 5px;
+}
+
+.grid-checks{
+    display: grid;
+    grid-template-columns:
+    repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.column{
+    margin: 5px;
+}
+
+.bg-intech{
+    background-color:rgb(20, 114, 194);
+}
+
+.text-intech{
+color: rgb(20, 114, 194);;
+}
+
+.size-form{
+    height: 60vh;
+}
+
+.flex-direction-column{
+    flex-direction: column;
 }
