@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Foundation\Auth\usuario as Authenticatable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
@@ -28,13 +28,11 @@ class usuario extends Authenticatable
     /**
      * The attributes that should be hidden for serialization.
      *
-     * @var array<int, string>
+     * @var array<string, string>
      */
     protected $hidden = [
         'usu_contrasena',
     ];
 
-    public function setUsu_contrasenaAttribute($value){
-        $this->attributes['usu_contrasena'] = bcrypt($value);
-    }
+   
 }

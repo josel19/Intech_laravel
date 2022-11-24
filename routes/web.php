@@ -35,5 +35,5 @@ Route::get('/prueba', function () {
 Route::get('/login', function () {
     return view('auth.login');
 });
-Route::get('/register', [RegisterController::class, 'show']);
-Route::post('/register', [RegisterController::class, 'register']);
+Route::get('/register', [RegisterController::class, 'show'])->name('ver-registro');
+Route::post('/register', [RegisterController::class, 'register'])->name('registro');

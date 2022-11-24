@@ -71,7 +71,7 @@
                         <div class="btn-registro flex-item-bottom" style="font-size: 12px; padding-top: 80px">
                             <p style="margin: 0px !important; padding: 2px 10px; color:#868686; font-size: 14px;">No
                                 estas registrado?</p>
-                            <button class="btn-custom-sm blue">Registrarse</button>
+                            <button class="btn-custom-sm blue"><a href="">Registrarse</a></button>
                         </div>
                     </div>
                 </div>

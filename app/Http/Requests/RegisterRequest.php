@@ -24,10 +24,10 @@ class RegisterRequest extends FormRequest
     public function rules()
     {
         return [
-            'usu_nombre' => 'required',
+            'usu_nombres' => 'required',
             'usu_apellidos' => 'required',
             'usu_correo' => 'required|unique:usuarios,usu_correo',
-            'usu_contrasena' => 'required',
+            'usu_contrasena' => 'required|same:usu_confirmar_contrasena',
             'usu_confirmar_contrasena' => 'required|same:usu_contrasena',
             'usu_cedula' => 'required|unique:usuarios,usu_cedula'
         ];
